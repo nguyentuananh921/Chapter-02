@@ -14,8 +14,13 @@
 <body>
     <div>
 
-        Hello World (from the view)
+        Hello World (from the view) <br />
         @ViewBag.Greeting World (From view)
-    </div>
+        <p>
+            We're going to have an exciting party.<br />
+            (To do: sell it better. Add pictures or something.)
+        </p>
+        @Html.ActionLink("RSVP Now", "RsvpForm")
+</div>
 </body>
 </html>
