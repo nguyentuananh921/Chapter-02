@@ -15,5 +15,9 @@ namespace PartyInvites.Controllers
             ViewBag.Greeting = hour < 12 ? "Good morning" : "Good afternood";
             return View();
         }
+        public ViewResult RsvpForm()
+        {
+            return View();
+        }
     }
 }
